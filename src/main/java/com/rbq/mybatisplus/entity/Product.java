@@ -17,6 +17,6 @@ public class Product {
     private Long id;
     private String name;
     private Integer price;
-    @Version
+    @Version //使用乐观锁的注解
     private Integer version;
 }
