@@ -21,5 +21,5 @@ public class Student {
     //使用多对一的情况下 要在单个的情况下
     private Clazz clazz;
     ////关联课程 一个学生可以对应多个课程 学生选择的课程
-    //private List<Course> courses;
+    //private List<Course> courses;    测试数据
 }
